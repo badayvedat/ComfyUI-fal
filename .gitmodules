@@ -1,3 +1,69 @@
 [submodule "custom_nodes/ComfyUI-fal-connector"]
 	path = custom_nodes/ComfyUI-fal-connector
 	url = https://github.com/badayvedat/ComfyUI-fal-connector
+[submodule "custom_nodes/ComfyUI-Advanced-ControlNet"]
+	path = custom_nodes/ComfyUI-Advanced-ControlNet
+	url = https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet.git
+[submodule "custom_nodes/ComfyUI-AnimateDiff-Evolved"]
+	path = custom_nodes/ComfyUI-AnimateDiff-Evolved
+	url = https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved.git
+[submodule "custom_nodes/ComfyUI-BRIA_AI-RMBG"]
+	path = custom_nodes/ComfyUI-BRIA_AI-RMBG
+	url = https://github.com/ZHO-ZHO-ZHO/ComfyUI-BRIA_AI-RMBG.git
+[submodule "custom_nodes/ComfyUI_Comfyroll_CustomNodes"]
+	path = custom_nodes/ComfyUI_Comfyroll_CustomNodes
+	url = https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes.git
+[submodule "custom_nodes/comfyui_controlnet_aux"]
+	path = custom_nodes/comfyui_controlnet_aux
+	url = https://github.com/Fannovel16/comfyui_controlnet_aux.git
+[submodule "custom_nodes/ComfyUI_essentials"]
+	path = custom_nodes/ComfyUI_essentials
+	url = https://github.com/cubiq/ComfyUI_essentials.git
+[submodule "custom_nodes/ComfyUI_FizzNodes"]
+	path = custom_nodes/ComfyUI_FizzNodes
+	url = https://github.com/FizzleDorf/ComfyUI_FizzNodes.git
+[submodule "custom_nodes/ComfyUI-Impact-Pack"]
+	path = custom_nodes/ComfyUI-Impact-Pack
+	url = https://github.com/ltdrdata/ComfyUI-Impact-Pack.git
+[submodule "custom_nodes/ComfyUI-Inspire-Pack"]
+	path = custom_nodes/ComfyUI-Inspire-Pack
+	url = https://github.com/ltdrdata/ComfyUI-Inspire-Pack.git
+[submodule "custom_nodes/ComfyUI_InstantID"]
+	path = custom_nodes/ComfyUI_InstantID
+	url = https://github.com/cubiq/ComfyUI_InstantID.git
+[submodule "custom_nodes/ComfyUI_IPAdapter_plus"]
+	path = custom_nodes/ComfyUI_IPAdapter_plus
+	url = https://github.com/cubiq/ComfyUI_IPAdapter_plus.git
+[submodule "custom_nodes/ComfyUI-Logic"]
+	path = custom_nodes/ComfyUI-Logic
+	url = https://github.com/theUpsider/ComfyUI-Logic.git
+[submodule "custom_nodes/ComfyUI-PhotoMaker-Plus"]
+	path = custom_nodes/ComfyUI-PhotoMaker-Plus
+	url = https://github.com/shiimizu/ComfyUI-PhotoMaker-Plus.git
+[submodule "custom_nodes/ComfyUI_tinyterraNodes"]
+	path = custom_nodes/ComfyUI_tinyterraNodes
+	url = https://github.com/TinyTerra/ComfyUI_tinyterraNodes.git
+[submodule "custom_nodes/ComfyUI_UltimateSDUpscale"]
+	path = custom_nodes/ComfyUI_UltimateSDUpscale
+	url = https://github.com/ssitu/ComfyUI_UltimateSDUpscale.git
+[submodule "custom_nodes/ComfyUI-VideoHelperSuite"]
+	path = custom_nodes/ComfyUI-VideoHelperSuite
+	url = https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite.git
+[submodule "custom_nodes/comfyui_segment_anything"]
+	path = custom_nodes/comfyui_segment_anything
+	url = https://github.com/storyicon/comfyui_segment_anything.git
+[submodule "custom_nodes/Derfuu_ComfyUI_ModdedNodes"]
+	path = custom_nodes/Derfuu_ComfyUI_ModdedNodes
+	url = https://github.com/Derfuu/Derfuu_ComfyUI_ModdedNodes.git
+[submodule "custom_nodes/masquerade-nodes-comfyui"]
+	path = custom_nodes/masquerade-nodes-comfyui
+	url = https://github.com/BadCafeCode/masquerade-nodes-comfyui.git
+[submodule "custom_nodes/was-node-suite-comfyui"]
+	path = custom_nodes/was-node-suite-comfyui
+	url = https://github.com/WASasquatch/was-node-suite-comfyui.git
+[submodule "custom_nodes/efficiency-nodes-comfyui"]
+	path = custom_nodes/efficiency-nodes-comfyui
+	url = https://github.com/jags111/efficiency-nodes-comfyui.git
+[submodule "custom_nodes/comfyui-reactor-node"]
+	path = custom_nodes/comfyui-reactor-node
+	url = https://github.com/Gourieff/comfyui-reactor-node.git
