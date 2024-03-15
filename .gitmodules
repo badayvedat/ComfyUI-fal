@@ -67,6 +67,3 @@
 [submodule "custom_nodes/comfyui-reactor-node"]
 	path = custom_nodes/comfyui-reactor-node
 	url = https://github.com/Gourieff/comfyui-reactor-node.git
-[submodule "ComfyUI-KJNodes"]
-	path = ComfyUI-KJNodes
-	url = https://github.com/kijai/ComfyUI-KJNodes.git
