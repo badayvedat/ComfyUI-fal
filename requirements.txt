@@ -6,6 +6,7 @@ cmake
 colour-science
 einops
 fairscale>=0.4.4
+fal
 filelock
 ftfy
 fvcore
@@ -14,6 +15,8 @@ git+https://github.com/WASasquatch/ffmpy.git
 git+https://github.com/WASasquatch/img2texture.git
 GitPython
 gitpython
+httpx
+httpx-sse
 huggingface_hub
 imageio-ffmpeg
 importlib_metadata
