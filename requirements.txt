@@ -14,7 +14,6 @@ git+https://github.com/WASasquatch/ffmpy.git
 git+https://github.com/WASasquatch/img2texture.git
 GitPython
 gitpython
-hf_transfer
 huggingface_hub
 imageio-ffmpeg
 importlib_metadata
