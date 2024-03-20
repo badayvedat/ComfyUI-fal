@@ -4,6 +4,7 @@ albumentations
 clip-interrogator
 cmake
 colour-science
+color-matcher
 einops
 fairscale>=0.4.4
 fal
@@ -61,3 +62,4 @@ ultralytics
 websocket-client
 yacs
 yapf
+
