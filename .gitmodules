@@ -67,3 +67,12 @@
 [submodule "custom_nodes/ComfyUI-KJNodes"]
 	path = custom_nodes/ComfyUI-KJNodes
 	url = https://github.com/kijai/ComfyUI-KJNodes.git
+[submodule "custom_nodes/ComfyUI-VideoHelperSuite"]
+	path = custom_nodes/ComfyUI-VideoHelperSuite
+	url = https://github.com/badayvedat/ComfyUI-VideoHelperSuite
+[submodule "custom_nodes/facerestore_cf"]
+	path = custom_nodes/facerestore_cf
+	url = https://github.com/mav-rik/facerestore_cf.git
+[submodule "custom_nodes/comfy_mtb"]
+	path = custom_nodes/comfy_mtb
+	url = https://github.com/melMass/comfy_mtb.git

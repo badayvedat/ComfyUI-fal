@@ -3,14 +3,16 @@ aiohttp
 albumentations
 clip-interrogator
 cmake
-colour-science
 color-matcher
+colour-science
 einops
 fairscale>=0.4.4
 fal
 filelock
 ftfy
+future
 fvcore
+gdown
 git+https://github.com/WASasquatch/cstr
 git+https://github.com/WASasquatch/ffmpy.git
 git+https://github.com/WASasquatch/img2texture.git
@@ -23,6 +25,9 @@ imageio-ffmpeg
 importlib_metadata
 insightface==0.7.3
 joblib
+librosa
+lmdb
+lpips
 matplotlib
 mediapipe
 numba
@@ -62,4 +67,3 @@ ultralytics
 websocket-client
 yacs
 yapf
-
