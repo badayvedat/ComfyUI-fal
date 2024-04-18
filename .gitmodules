@@ -73,9 +73,9 @@
 [submodule "custom_nodes/facerestore_cf"]
 	path = custom_nodes/facerestore_cf
 	url = https://github.com/mav-rik/facerestore_cf.git
-[submodule "custom_nodes/comfy_mtb"]
-	path = custom_nodes/comfy_mtb
-	url = https://github.com/melMass/comfy_mtb.git
 [submodule "custom_nodes/ComfyUI_ADV_CLIP_emb"]
 	path = custom_nodes/ComfyUI_ADV_CLIP_emb
 	url = https://github.com/hike2008/ComfyUI_ADV_CLIP_emb
+[submodule "custom_nodes/comfy_mtb"]
+	path = custom_nodes/comfy_mtb
+	url = https://github.com/badayvedat/comfy_mtb.git
