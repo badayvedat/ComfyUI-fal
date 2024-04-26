@@ -7,7 +7,7 @@ color-matcher
 colour-science
 einops
 fairscale>=0.4.4
-fal
+fal-client>=0.3.0
 filelock
 ftfy
 future
