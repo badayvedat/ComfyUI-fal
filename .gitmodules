@@ -79,3 +79,6 @@
 [submodule "custom_nodes/comfy_mtb"]
 	path = custom_nodes/comfy_mtb
 	url = https://github.com/badayvedat/comfy_mtb.git
+[submodule "custom_nodes/ComfyUI-AudioScheduler"]
+	path = custom_nodes/ComfyUI-AudioScheduler
+	url = https://github.com/a1lazydog/ComfyUI-AudioScheduler.git

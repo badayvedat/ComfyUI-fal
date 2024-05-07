@@ -44,6 +44,7 @@ piexif
 pilgram
 Pillow
 psutil
+pydub
 python-dateutil
 pyyaml
 rembg
