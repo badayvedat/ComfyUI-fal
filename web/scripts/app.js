@@ -512,10 +512,6 @@ export class ComfyApp {
 						imagesChanged = true;
 						imgURLs = imgURLs.concat(
 							output.images.map((params) => {
-								// check if there is a url in the params
-								if (params.url) {
-									return params.url;
-								}
 								return api.apiURL(
 									"/view?" +
 										new URLSearchParams(params).toString() +

@@ -253,6 +253,16 @@ class PromptServer():
 
         @routes.get("/view")
         async def view_image(request):
+            if "url" in request.rel_url.query:
+                remote_url = request.rel_url.query["url"]
+                
+                # Ensure the remote URL is a valid and safe URL
+                if remote_url.startswith("https://"):
+                    # Redirect the client to the remote URL
+                    return web.HTTPFound(remote_url)
+                else:
+                    return web.Response(status=400, text="Invalid URL format.")
+
             if "filename" in request.rel_url.query:
                 filename = request.rel_url.query["filename"]
                 filename,output_dir = folder_paths.annotated_filepath(filename)
