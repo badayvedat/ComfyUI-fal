@@ -82,3 +82,6 @@
 [submodule "custom_nodes/ComfyUI-AudioScheduler"]
 	path = custom_nodes/ComfyUI-AudioScheduler
 	url = https://github.com/a1lazydog/ComfyUI-AudioScheduler.git
+[submodule "custom_nodes/ComfyUI-AutomaticCFG"]
+	path = custom_nodes/ComfyUI-AutomaticCFG
+	url = https://github.com/Extraltodeus/ComfyUI-AutomaticCFG
