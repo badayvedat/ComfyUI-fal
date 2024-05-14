@@ -68,6 +68,7 @@ body {
 .comfy-modal-content {
 	display: flex;
 	flex-direction: column;
+	max-width: 80vw;
 }
 
 .comfy-modal p {

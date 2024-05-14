@@ -68,3 +68,4 @@ ultralytics
 websocket-client
 yacs
 yapf
+kornia>=0.7.1

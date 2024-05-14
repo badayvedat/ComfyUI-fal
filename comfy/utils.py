@@ -5,6 +5,7 @@ import comfy.checkpoint_pickle
 import safetensors.torch
 import numpy as np
 from PIL import Image
+import logging
 
 def load_torch_file(ckpt, safe_load=False, device=None):
     if device is None:
@@ -14,14 +15,14 @@ def load_torch_file(ckpt, safe_load=False, device=None):
     else:
         if safe_load:
             if not 'weights_only' in torch.load.__code__.co_varnames:
-                print("Warning torch.load doesn't support weights_only on this pytorch version, loading unsafely.")
+                logging.warning("Warning torch.load doesn't support weights_only on this pytorch version, loading unsafely.")
                 safe_load = False
         if safe_load:
             pl_sd = torch.load(ckpt, map_location=device, weights_only=True)
         else:
             pl_sd = torch.load(ckpt, map_location=device, pickle_module=comfy.checkpoint_pickle)
         if "global_step" in pl_sd:
-            print(f"Global Step: {pl_sd['global_step']}")
+            logging.debug(f"Global Step: {pl_sd['global_step']}")
         if "state_dict" in pl_sd:
             sd = pl_sd["state_dict"]
         else:
@@ -294,8 +295,11 @@ def set_attr(obj, attr, value):
     for name in attrs[:-1]:
         obj = getattr(obj, name)
     prev = getattr(obj, attrs[-1])
-    setattr(obj, attrs[-1], torch.nn.Parameter(value, requires_grad=False))
-    del prev
+    setattr(obj, attrs[-1], value)
+    return prev
+
+def set_attr_param(obj, attr, value):
+    return set_attr(obj, attr, torch.nn.Parameter(value, requires_grad=False))
 
 def copy_to_param(obj, attr, value):
     # inplace update tensor instead of replacing it
