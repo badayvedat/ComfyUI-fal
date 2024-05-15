@@ -58,9 +58,6 @@
 [submodule "custom_nodes/was-node-suite-comfyui"]
 	path = custom_nodes/was-node-suite-comfyui
 	url = https://github.com/WASasquatch/was-node-suite-comfyui.git
-[submodule "custom_nodes/efficiency-nodes-comfyui"]
-	path = custom_nodes/efficiency-nodes-comfyui
-	url = https://github.com/jags111/efficiency-nodes-comfyui.git
 [submodule "custom_nodes/comfyui-reactor-node"]
 	path = custom_nodes/comfyui-reactor-node
 	url = https://github.com/Gourieff/comfyui-reactor-node.git
