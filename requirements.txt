@@ -3,6 +3,7 @@ aiohttp
 albumentations
 clip-interrogator
 cmake
+colorama
 color-matcher
 colour-science
 einops
@@ -37,7 +38,6 @@ numpy<1.25.0
 omegaconf
 onnx>=1.14.0
 onnxruntime
-opencv-python>=4.7.0.72
 opencv-python-headless[ffmpeg]<=4.7.0.72
 pandas
 piexif
